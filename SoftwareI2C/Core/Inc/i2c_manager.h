@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file           : i2c_manager.h
   * @brief          : Header for i2c_manager.c file.
-  *                   This file contains TOFOFOFOFOFOFOFOFOOFOFOFOFOFOFOFOFOFOFOFOFOOFOFOFOFOFOFOF
+  *                   This file contains functions to use I2C
   ******************************************************************************
   */
 
