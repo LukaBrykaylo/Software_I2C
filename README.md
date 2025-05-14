@@ -2,7 +2,7 @@
 
 ### Працює на:
 
-* STM32F411CEU6 (Black Pill)
+* STM32F411CEU6
 
 ### Основні функції:
 
@@ -23,3 +23,12 @@
 * `TSL2561_ADDR_WRITE` — адреса для запису (0x72)
 * `TSL2561_ADDR_READ` — адреса для читання (0x73)
 * `CMD_BIT` — 0x80, вказує, що операція адресує регістр
+
+### Приклад:
+
+* Прийняте значення в темному середовищі:
+![image](https://github.com/user-attachments/assets/7b2da330-11a8-4534-ace0-57dde483b146)
+
+* Прийняте значення в світлому средовищі:
+![image](https://github.com/user-attachments/assets/2a36df88-1c0d-4af1-9c5b-fcda59cd099e)
+
