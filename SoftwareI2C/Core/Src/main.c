@@ -50,10 +50,10 @@ uint16_t data = 0;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
+
+/* USER CODE BEGIN PFP */
 void TSL2561_PowerOn(void);
 uint16_t TSL2561_ReadData(void);
-/* USER CODE BEGIN PFP */
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
