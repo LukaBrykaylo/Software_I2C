@@ -29,6 +29,6 @@
 * Прийняте значення в темному середовищі:
 ![image](https://github.com/user-attachments/assets/7b2da330-11a8-4534-ace0-57dde483b146)
 
-* Прийняте значення в світлому средовищі:
+* Прийняте значення в світлому середовищі:
 ![image](https://github.com/user-attachments/assets/2a36df88-1c0d-4af1-9c5b-fcda59cd099e)
 
