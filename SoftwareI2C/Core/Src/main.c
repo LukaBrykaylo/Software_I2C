@@ -91,7 +91,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  I2C_Init();
+  I2C_Init(GPIOB, SDA_Pin, SCL_Pin);
   TSL2561_PowerOn();
   /* USER CODE END 2 */
 

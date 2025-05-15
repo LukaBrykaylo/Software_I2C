@@ -10,12 +10,21 @@
 #define __I2C_MANAGER_H
 
 #include <stdint.h>
+#include "stm32f4xx_hal.h"
+
+/**
+ * @brief Variables for the I2C GPIO port and pins
+ */
+extern GPIO_TypeDef *GPIO_I2C;
+extern uint16_t SDA;
+extern uint16_t SCL;
 
 /**
  * @brief initialize I2C by setting GPIO pins
+ * @param byte: All pins information
  * @return void
  */
-void I2C_Init(void);
+void I2C_Init(GPIO_TypeDef *GPIO, uint16_t SDA_pin, uint16_t SCL_pin);
 
 /**
  * @brief Change state of SDA/SCL pins
